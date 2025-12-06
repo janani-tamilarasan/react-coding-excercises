@@ -1,0 +1,11 @@
+# Make JS and JSX count toward language stats
+*.js  linguist-detectable=true
+*.jsx linguist-detectable=true
+
+# Ignore HTML and CSS so JS becomes the main language
+*.html linguist-vendored
+*.css linguist-vendored
+
+# Ignore build artifacts
+build/* linguist-vendored
+dist/* linguist-vendored
